@@ -61,11 +61,15 @@ p, ul, ol { margin-top: 0; }
 }
 
 .site-brand {
+  display: inline-block;
   color: var(--ink);
   font-family: var(--serif);
-  font-size: 22px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
   justify-self: start;
-  letter-spacing: -.05em;
+  letter-spacing: -.045em;
+  line-height: 1.1;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -641,7 +645,7 @@ p, ul, ol { margin-top: 0; }
 
 @media (max-width: 700px) {
   .site-nav { gap: 8px; padding: 13px 18px 14px; }
-  .site-brand { font-size: 19px; }
+  .site-brand { font-size: 20px; }
   .site-nav__links { gap: 7px 13px; }
   .site-nav__links a { padding: 3px 0 5px; letter-spacing: .09em; }
   .site-main { padding: 42px 0 64px; }

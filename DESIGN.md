@@ -48,9 +48,11 @@ single component.
 
 ## Components
 
-- **Masthead:** name aligns to the left content edge at wide widths; all
-  destinations form one right-aligned row ending at the right content edge,
-  with a consistent type scale, active-page rule, and spacing.
+- **Masthead:** the name uses a restrained serif italic, giving it the character
+  of a scholarly signature without sacrificing legibility. It aligns to the
+  left content edge at wide widths; all destinations form one right-aligned row
+  ending at the right content edge, with a consistent type scale, active-page
+  rule, and spacing.
 - **Feature page header:** one editorial headline and one short deck replace
   duplicated page titles on Research, Publications, Presentations, and
   Software.
