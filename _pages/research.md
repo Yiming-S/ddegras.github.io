@@ -17,7 +17,7 @@ permalink: /research/
       <p class="chapter-kicker">Curves · Inference · Confidence</p>
       <h2>Functional data</h2>
       <p>When an observation is a curve rather than a single number, estimation and uncertainty need to be understood over the whole domain. This work studies nonparametric estimation, simultaneous confidence bands, and inference for functional data.</p>
-      <p class="chapter-links"><a href="{{ '/publications/Simultaneous confidence bands for the mean of functional data' | relative_url }}">Mean confidence bands</a><a href="{{ '/publications/Confidence bands for Horvitz–Thompson estimators using sampled noisy functional data' | relative_url }}">Sampled noisy functions</a><a href="https://github.com/ddegras/SCBmeanfd">SCBmeanfd ↗</a></p>
+      <p class="chapter-links"><a href="{{ '/publications/simultaneous-confidence-bands-mean-functional-data/' | relative_url }}">Mean confidence bands</a><a href="{{ '/publications/confidence-bands-horvitz-thompson-functional-data/' | relative_url }}">Sampled noisy functions</a><a href="https://github.com/ddegras/SCBmeanfd">SCBmeanfd ↗</a></p>
     </div>
   </section>
 
@@ -27,7 +27,7 @@ permalink: /research/
       <p class="chapter-kicker">Streaming data · Dimension reduction</p>
       <h2>Online methods</h2>
       <p>How should principal directions be updated when data arrive continuously or cannot be kept in memory? Online PCA connects recursive computation with statistical accuracy for multivariate and functional data.</p>
-      <p class="chapter-links"><a href="{{ '/publications/Online Principal Component Analysis in High Dimension' | relative_url }}">Online PCA paper</a><a href="https://github.com/ddegras/onlinePCA">onlinePCA on GitHub ↗</a></p>
+      <p class="chapter-links"><a href="{{ '/publications/online-principal-component-analysis-high-dimension/' | relative_url }}">Online PCA paper</a><a href="https://github.com/ddegras/onlinePCA">onlinePCA on GitHub ↗</a></p>
     </div>
   </section>
 
@@ -37,7 +37,7 @@ permalink: /research/
       <p class="chapter-kicker">Change points · Sparsity · Optimization</p>
       <h2>Segmentation</h2>
       <p>Piecewise models can describe systems whose relationships change over time. Sparse group fused lasso methods combine model segmentation with variable selection in high-dimensional regression.</p>
-      <p class="chapter-links"><a href="{{ '/publications/Sparse group fused lasso for model segmentation' | relative_url }}">Sparse group fused lasso</a><a href="https://github.com/ddegras/sparseGFL">sparseGFL on GitHub ↗</a></p>
+      <p class="chapter-links"><a href="{{ '/publications/sparse-group-fused-lasso-model-segmentation/' | relative_url }}">Sparse group fused lasso</a><a href="https://github.com/ddegras/sparseGFL">sparseGFL on GitHub ↗</a></p>
     </div>
   </section>
 
@@ -47,7 +47,7 @@ permalink: /research/
       <p class="chapter-kicker">Latent regimes · Time series · Brain signals</p>
       <h2>Switching systems</h2>
       <p>Markov-switching state-space models represent processes that move among latent regimes. Applications include dynamic dependence in EEG, epilepsy, and motor-imagery studies.</p>
-      <p class="chapter-links"><a href="{{ '/publications/markov-switching-state-space-models-neuroimaging' | relative_url }}">Neuroimaging paper</a><a href="https://github.com/ddegras/switch-ssm">switch-ssm on GitHub ↗</a></p>
+      <p class="chapter-links"><a href="{{ '/publications/markov-switching-state-space-models-neuroimaging/' | relative_url }}">Neuroimaging paper</a><a href="https://github.com/ddegras/switch-ssm">switch-ssm on GitHub ↗</a></p>
     </div>
   </section>
 </div>

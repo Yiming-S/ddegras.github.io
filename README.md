@@ -27,6 +27,15 @@ bundle exec jekyll serve --config _config.yml,_config.dev.yml
 
 Open `http://localhost:4000/`.
 
+## Updating the site
+
+- Edit the main sections in `_pages/`.
+- Add a publication by copying one file in `_publications/`. Use a lowercase,
+  hyphenated filename and an ISO date such as `2026-07-10`; the filename becomes
+  the publication URL automatically.
+- Make visual changes only in `assets/css/main.scss`.
+- Never commit `_site/`; GitHub Pages generates it during deployment.
+
 ## Current test deployment
 
 The test site is published from `Yiming-S/ddegras.github.io` at:

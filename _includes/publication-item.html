@@ -1,9 +1,5 @@
 {% assign publication = include.publication %}
-{% if publication.year %}
-  {% assign publication_year = publication.year %}
-{% else %}
-  {% assign publication_year = publication.date | date: "%Y" %}
-{% endif %}
+{% assign publication_year = publication.date | date: "%Y" %}
 <a class="publication-record" href="{{ publication.url | relative_url }}">
   <span class="publication-record__year">{{ publication_year }}</span>
   <span class="publication-record__copy">

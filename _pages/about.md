@@ -66,13 +66,13 @@ redirect_from:
       <h2 id="selected-heading">Methods become useful when they leave a trace.</h2>
     </div>
     <div class="home-paper-list">
-      <a class="home-paper-row" href="{{ '/publications/markov-switching-state-space-models-neuroimaging' | relative_url }}">
+      <a class="home-paper-row" href="{{ '/publications/markov-switching-state-space-models-neuroimaging/' | relative_url }}">
         <span class="home-paper-year">2022</span><span class="home-paper-title">Markov-switching state-space models with applications to neuroimaging</span><span class="home-paper-venue">Computational Statistics &amp; Data Analysis</span><span class="research-arrow" aria-hidden="true">↗</span>
       </a>
-      <a class="home-paper-row" href="{{ '/publications/Sparse group fused lasso for model segmentation' | relative_url }}">
+      <a class="home-paper-row" href="{{ '/publications/sparse-group-fused-lasso-model-segmentation/' | relative_url }}">
         <span class="home-paper-year">2020</span><span class="home-paper-title">Sparse group fused lasso for model segmentation</span><span class="home-paper-venue">Advances in Data Analysis and Classification</span><span class="research-arrow" aria-hidden="true">↗</span>
       </a>
-      <a class="home-paper-row" href="{{ '/publications/Online Principal Component Analysis in High Dimension' | relative_url }}">
+      <a class="home-paper-row" href="{{ '/publications/online-principal-component-analysis-high-dimension/' | relative_url }}">
         <span class="home-paper-year">2017</span><span class="home-paper-title">Online principal component analysis in high dimension</span><span class="home-paper-venue">International Statistical Review</span><span class="research-arrow" aria-hidden="true">↗</span>
       </a>
     </div>

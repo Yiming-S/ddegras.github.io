@@ -48,8 +48,8 @@ single component.
 
 ## Components
 
-- **Masthead:** name on the left; four primary destinations; People, Teaching,
-  and Talks remain secondary.
+- **Masthead:** name on the left; four primary destinations; People and
+  Teaching remain secondary.
 - **Hero:** a restrained editorial portrait, identity, role, one sentence of
   research positioning, and three direct actions. The main visual remains a
   research map built from real topics.

@@ -2,11 +2,7 @@
 layout: default
 ---
 
-{% if page.year %}
-  {% assign publication_year = page.year %}
-{% else %}
-  {% assign publication_year = page.date | date: "%Y" %}
-{% endif %}
+{% assign publication_year = page.date | date: "%Y" %}
 
 <article class="publication-page">
   <a class="back-link" href="{{ '/publications/' | relative_url }}">← All publications</a>
