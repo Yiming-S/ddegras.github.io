@@ -30,7 +30,12 @@ redirect_from:
         <a class="home-action" href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">↗</span></a>
         <a class="home-action" href="https://github.com/ddegras">GitHub <span aria-hidden="true">↗</span></a>
       </div>
-      <p class="home-meta"><span>Paris → Boston</span><span>Guitar &amp; music</span></p>
+      <p class="home-meta">
+        <span class="city-signature" aria-label="Paris to Boston">
+          <span class="city-signature__word">paris</span><span class="city-signature__line"></span><span class="city-signature__tower" aria-hidden="true"><span class="city-signature__decks"></span><span class="city-signature__arch"></span><span class="city-signature__spire"></span></span><span class="city-signature__line"></span><span class="city-signature__word">boston</span>
+        </span>
+        <span>Guitar &amp; music</span>
+      </p>
     </div>
 
     <section class="research-atlas" aria-labelledby="atlas-heading">

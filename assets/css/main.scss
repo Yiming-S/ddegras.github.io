@@ -260,8 +260,82 @@ p, ul, ol { margin-top: 0; }
   text-transform: uppercase;
 }
 
-.home-meta span:first-child { color: var(--cobalt); }
-.home-meta span:last-child { color: var(--vermilion); }
+.city-signature {
+  display: inline-flex;
+  align-items: flex-end;
+  min-height: 31px;
+  color: var(--cobalt);
+  font-family: "Bradley Hand", "Segoe Print", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .015em;
+  line-height: 1;
+  text-transform: none;
+}
+
+.city-signature__word { transform: translateY(1px); }
+
+.city-signature__line {
+  width: 12px;
+  height: 1px;
+  margin: 0 -2px 5px;
+  background: var(--cobalt);
+}
+
+.city-signature__tower {
+  position: relative;
+  display: inline-block;
+  flex: 0 0 23px;
+  width: 23px;
+  height: 31px;
+  margin: 0 -1px;
+}
+
+.city-signature__tower::before,
+.city-signature__tower::after {
+  position: absolute;
+  bottom: 1px;
+  width: 1px;
+  height: 26px;
+  transform-origin: bottom center;
+  background: var(--cobalt);
+  content: "";
+}
+
+.city-signature__tower::before { left: 5px; transform: rotate(13deg); }
+.city-signature__tower::after { right: 5px; transform: rotate(-13deg); }
+.city-signature__tower span { position: absolute; display: block; }
+
+.city-signature__decks::before,
+.city-signature__decks::after {
+  position: absolute;
+  height: 1px;
+  background: var(--cobalt);
+  content: "";
+}
+
+.city-signature__decks::before { top: 13px; left: 7px; width: 9px; }
+.city-signature__decks::after { top: 21px; left: 3px; width: 17px; }
+
+.city-signature__arch {
+  bottom: 1px;
+  left: 5px;
+  width: 13px;
+  height: 8px;
+  border: 1px solid var(--cobalt);
+  border-bottom: 0;
+  border-radius: 13px 13px 0 0;
+}
+
+.city-signature__spire {
+  top: 0;
+  left: 11px;
+  width: 1px;
+  height: 6px;
+  background: var(--cobalt);
+}
+
+.home-meta > span:last-child { color: var(--vermilion); }
 
 .research-atlas,
 .selected-publications {

@@ -68,6 +68,9 @@ portrait is the only literal tricolor mark.
 - **Hero:** a restrained editorial portrait, one small tricolor rule, identity,
   role, one sentence of research positioning, and three direct actions. The
   main visual remains a research map built from real topics.
+- **City signature:** lowercase `paris` and `boston` are joined by a continuous
+  navy baseline that rises into a simplified Eiffel Tower. It remains a quiet
+  biographical mark; the adjacent music note stays vermilion.
 - **Research chapter:** numbered editorial row with a question, method, and
   links to a paper or repository.
 - **Publication record:** year rail, title, venue, short description, DOI or
