@@ -253,7 +253,7 @@ p, ul, ol { margin-top: 0; }
   display: flex;
   flex-wrap: wrap;
   gap: 12px 22px;
-  align-items: center;
+  align-items: flex-end;
   margin: 26px 0 0;
   color: var(--muted);
   font-size: 11px;
@@ -336,7 +336,10 @@ p, ul, ol { margin-top: 0; }
   background: var(--cobalt);
 }
 
-.home-meta > span:last-child { color: var(--vermilion); }
+.home-meta > span:last-child {
+  transform: translateY(1px);
+  color: var(--vermilion);
+}
 
 .research-atlas,
 .selected-publications {
