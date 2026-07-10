@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: page
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
 ---
 
 The following course pages document a previous teaching period.

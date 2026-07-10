@@ -1,7 +1,7 @@
 ---
 title: "Simultaneous Confidence Bands for Nonparametric Regression With Functional Data"
 collection: publications
-permalink: /publications/Asymptotics for the nonparametric estimation of the mean function of a random process
+permalink: /publications/simultaneous-confidence-bands-nonparametric-regression
 venue: "Statistica Sinica"
 date: October 2011
 citation: '<b>D. Degras</b>, Volume 21, No.4, 1 October 2011, Pages 1735-1765 .'

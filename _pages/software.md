@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: page
 title: "Software"
 permalink: /software/
-author_profile: false
 ---
 
 <div class="software-page-intro">

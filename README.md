@@ -1,22 +1,43 @@
-# David Degras
+# David Degras — academic website
 
-Personal academic website for David Degras, Associate Professor in the Department of Mathematics at the University of Massachusetts Boston.
+A small Jekyll site for David Degras. The repository intentionally contains
+only the files needed to edit content, build the site, and publish with GitHub
+Pages.
 
-The site presents research in statistical learning, functional data, online methods, model segmentation, switching state-space models, optimization, survey sampling, and neuroimaging. It also collects publications, teaching information, selected collaborators, and links to open-source research software.
+## Structure
 
-## Local development
+```text
+_config.yml              Site identity and deployment URL
+_data/navigation.yml     Header navigation
+_includes/               Four reusable HTML components
+_layouts/                Home, page, and publication layouts
+_pages/                  Main website pages
+_publications/           One Markdown file per publication
+assets/css/main.scss     Complete visual system
+images/biophoto.png      Profile portrait
+DESIGN.md                Design rules for future changes
+```
 
-This is a Jekyll site based on AcademicPages. With Ruby and Bundler installed:
+## Local preview
 
 ```sh
 bundle install
 bundle exec jekyll serve --config _config.yml,_config.dev.yml
 ```
 
-The local preview is available at `http://127.0.0.1:4000/`.
+Open `http://localhost:4000/`.
 
-## Public profiles
+## Current test deployment
 
-- [GitHub](https://github.com/ddegras)
-- [Google Scholar](https://scholar.google.com/citations?user=CYLjVg4AAAAJ&hl=en)
-- [Academia](https://um-boston.academia.edu/DavidDegras)
+The test site is published from `Yiming-S/ddegras.github.io` at:
+
+<https://yiming-s.github.io/ddegras.github.io/>
+
+After transferring the repository to `ddegras`, update the three deployment
+values near the top of `_config.yml`:
+
+```yaml
+url: "https://ddegras.github.io"
+baseurl: ""
+repository: "ddegras/ddegras.github.io"
+```

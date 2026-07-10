@@ -1,7 +1,7 @@
 ---
 title: "Local polynomial estimation of the mean function and its derivatives based on functional data and regular designs"
 collection: publications
-permalink: /publications/Asymptotics for the nonparametric estimation of the mean function of a random process
+permalink: /publications/local-polynomial-functional-data
 venue: "ESAIM: Probability and Statistics"
 date: 29 October 2014
 citation: 'K. Benhenni, <b>D. Degras</b>, Volume 18, 29 October 2014, Pages 881-899.'

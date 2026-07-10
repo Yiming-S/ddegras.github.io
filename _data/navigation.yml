@@ -1,23 +1,15 @@
-# main links links
-main:
-  - title: "Research"
+primary:
+  - title: Research
     url: /research/
-
-  - title: "Publications"
+  - title: Publications
     url: /publications/
-
-  - title: "Software"
-    url: /software/    
-
-  - title: "CV"
+  - title: Software
+    url: /software/
+  - title: CV
     url: /cv/
 
 secondary:
-  - title: "People"
+  - title: People
     url: /people/
-
-  - title: "Teaching"
+  - title: Teaching
     url: /teaching/
-
-  - title: "Talks"
-    url: /talks/
