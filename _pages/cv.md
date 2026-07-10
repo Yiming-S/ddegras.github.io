@@ -9,31 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
+David Degras is an Associate Professor in the Department of Mathematics at the University of Massachusetts Boston.
+
 Education
-======
+=========
 
-* Ph.D in Statistics, Université Paris 6, 2008 
+* Ph.D. in Statistics, Université Paris 6, 2008
 
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+Academic appointments
+=====================
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Associate Professor, Department of Mathematics, University of Massachusetts Boston
+* Assistant Professor, DePaul University, 2011–2016
+* Postdoctoral Fellow, Statistical and Applied Mathematical Sciences Institute (SAMSI), 2010–2011
+
+Research
+========
+
+Statistical learning, functional data, online methods, model segmentation, switching state-space models, optimization, survey sampling, and neuroimaging.
+
+Profiles and code
+=================
+
+* [Google Scholar](https://scholar.google.com/citations?user=CYLjVg4AAAAJ&hl=en)
+* [Academia](https://um-boston.academia.edu/DavidDegras)
+* [GitHub](https://github.com/ddegras)
 
 Publications
 ======
@@ -48,11 +48,6 @@ Talks
   {% endfor %}</ul>
   
 Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+========
+
+The site records past offerings of MATH 545 (Probability & Statistics I for Secondary Teachers) and MATH 648 (Computational Statistics). Current offerings should be confirmed through the UMass Boston Department of Mathematics.

@@ -12,11 +12,15 @@ main:
   - title: "Software"
     url: /software/    
 
+  - title: "CV"
+    url: /cv/
+
+secondary:
+  - title: "People"
+    url: /people/
+
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
 
   - title: "Talks"
     url: /talks/
-
-  - title: "CV"
-    url: /cv/

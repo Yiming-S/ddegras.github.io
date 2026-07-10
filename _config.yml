@@ -7,17 +7,17 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "David Degras-Valabregue"
+title                    : "David Degras"
 title_separator          : "-"
-name                     : &name "David Degras-Valabregue"
-description              : &description "Assistant Professor, Department of Mathematics"
+name                     : &name "David Degras"
+description              : &description "Associate Professor, Department of Mathematics"
 url                      : https://ddegras.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ddegras/ddegras.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -73,7 +73,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -86,7 +86,7 @@ author:
   location         : "Boston, USA"
   employer         : "University of Massachusetts Boston"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://scholar.google.com/citations?user=CYLjVg4AAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=CYLjVg4AAAAJ&hl=en"
   email            :  "David.Degras@umb.edu"
   researchgate     :  "https://www.researchgate.net/scientific-contributions/David-Degras-2039423924"
   uri              :
@@ -105,7 +105,6 @@ author:
   linkedin         : "david-degras-77229b23/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
-  soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
@@ -115,7 +114,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  Academia         : "https://um-boston.academia.edu/DavidDegras"
+  academia         : "https://um-boston.academia.edu/DavidDegras"
 
 
 # Reading Files
@@ -131,11 +130,17 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - CHANGELOG.md
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
+  - LICENSE.md
   - README
+  - README.md
+  - CONTRIBUTING.md
+  - DESIGN.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
@@ -143,10 +148,14 @@ exclude:
   - config
   - gulpfile.js
   - log
+  - markdown_generator
   - node_modules
   - package.json
   - tmp
   - vendor
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
 keep_files:
   - .git
   - .svn

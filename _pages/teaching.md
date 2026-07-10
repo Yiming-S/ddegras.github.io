@@ -5,23 +5,17 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Spring Semester
+The following course pages document a previous teaching period.
+
+## Spring 2021
 
 ### **MATH 545 - Probability & Statistics I for Secondary Teachers**
 
-DAYS & TIMES : MoWe 4:00PM - 5:15PM
-
-MEETING DATES : 01/25/2021 - 05/12/2021
-
-Location: REMOTE
+Probability and statistics for secondary-teacher preparation.
 
 
 
 
 ### **MATH 648 - Computational Statistics**
 
-DAYS & TIMES : MoWe 5:30PM - 6:45PM
-
-MEETING DATES : 01/25/2021 - 05/12/2021
-
-Location: REMOTE
+Computational statistics, including statistical programming and modern computational methods.

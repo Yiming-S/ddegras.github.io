@@ -14,6 +14,11 @@
           <a class="site-nav__link" href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
         {% endfor %}
       </div>
+      <div class="site-nav__secondary" aria-label="Additional pages">
+        {% for link in site.data.navigation.secondary %}
+          <a class="site-nav__secondary-link" href="{{ base_path }}{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </div>
     </nav>
   </div>
 </div>
