@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: false
 ---
 
+{% include base_path %}
+
 <div class="publication-page-intro">
   <p class="research-kicker">Publications / Selected and complete</p>
   <h2>Statistical methods for data with curves, regimes, and changing structure.</h2>

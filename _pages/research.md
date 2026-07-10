@@ -5,6 +5,8 @@ permalink: /research/
 author_profile: false
 ---
 
+{% include base_path %}
+
 <div class="research-page-intro">
   <p class="research-kicker">Research / Questions and methods</p>
   <h2>How can statistical models make structure visible without flattening the data?</h2>

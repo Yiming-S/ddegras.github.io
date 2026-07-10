@@ -9,6 +9,8 @@ redirect_from:
   - /about.html
 ---
 
+{% include base_path %}
+
 <div class="home-shell">
   <section class="home-hero" aria-labelledby="home-title">
     <div class="home-intro">
