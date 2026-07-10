@@ -32,4 +32,7 @@ switching state-space models, optimization, survey sampling, and neuroimaging.
 
 ## Teaching
 
-Past offerings represented on this site include MATH 545 (Probability & Statistics I for Secondary Teachers) and MATH 648 (Computational Statistics). Current offerings should be confirmed through the UMass Boston Department of Mathematics.
+Regular teaching includes MATH 545 (Probability & Statistics I for Secondary
+Teachers) and MATH 648 (Computational Statistics). See the
+[Teaching page]({{ '/teaching/' | relative_url }}) for course descriptions and
+official catalog links.

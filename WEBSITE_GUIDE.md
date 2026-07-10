@@ -164,8 +164,9 @@ layout changes, ask the site maintainer rather than modifying the shared CSS.
   One sentence describing the person's research or work.
   ```
 
-- **Teaching:** add a semester heading, course heading, and short description
-  in `_pages/teaching.md`.
+- **Teaching:** keep evergreen course descriptions in `_pages/teaching.md`.
+  Update them only when a course title or catalog description changes; link to
+  the official catalog instead of adding semester or year headings.
 - **CV:** edit the corresponding section in `_pages/cv.md`. Keep dates and job
   titles consistent with the official university profile.
 
