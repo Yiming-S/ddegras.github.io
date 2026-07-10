@@ -57,6 +57,8 @@ single component.
   links to a paper or repository.
 - **Publication record:** year rail, title, venue, short description, DOI or
   repository link.
+- **Presentation record:** date, title, event, location, short description, and
+  optional slides, video, or event link.
 - **Software record:** project name, one-line method description, language or
   application context, and repository link.
 - **Footer:** GitHub, contact, Google Scholar, and Academia.

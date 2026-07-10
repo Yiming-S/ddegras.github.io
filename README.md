@@ -25,14 +25,17 @@ public profiles:
 ```text
 _config.yml              Identity, deployment URL, and Jekyll settings
 _data/navigation.yml     Header navigation
+_data/presentations.yml  Presentation records, sorted automatically
 _includes/               Header, footer, metadata, and publication row
 _layouts/                Home, standard page, and publication layouts
 _pages/about.md           Homepage and primary biographical introduction
-_pages/                   Research, publications, software, CV, and teaching
+_pages/                   Main sections, including Presentations
 _publications/            One Markdown file per publication
 assets/css/main.scss      Entire visual system and responsive layout
+files/presentations/      Optional presentation PDFs
 images/biophoto.png      Profile portrait
 DESIGN.md                Rules for the French editorial design direction
+WEBSITE_GUIDE.md         Nontechnical content guide for the site owner
 ```
 
 Generated output, theme vendors, JavaScript libraries, and unused demonstration
@@ -75,6 +78,16 @@ Short description or abstract.
 Use an ISO date (`YYYY-MM-DD`) so the publication list sorts correctly. If an
 existing filename or URL changes, add its previous path under `redirect_from`
 so bookmarks and cached pages do not produce a 404.
+
+### Presentations
+
+Add verified talks, seminars, tutorials, or conference presentations in
+`_data/presentations.yml`. The Presentations page sorts records automatically
+and supports optional slide, video, and event links. The complete copy-and-paste
+template is in `WEBSITE_GUIDE.md`.
+
+Presentation PDFs may be uploaded to `files/presentations/` and linked with a
+site-relative path such as `/files/presentations/talk-title-2026.pdf`.
 
 ### Design
 
@@ -134,3 +147,6 @@ After transferring the repository to the `ddegras` account:
 - Keep publication URLs stable and retain redirects when a URL must change.
 - Add dependencies only when the content cannot be implemented cleanly with
   the existing Jekyll structure.
+
+For step-by-step editing instructions written for the future site owner, see
+[`WEBSITE_GUIDE.md`](WEBSITE_GUIDE.md).

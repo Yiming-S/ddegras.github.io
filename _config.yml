@@ -28,6 +28,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - WEBSITE_GUIDE.md
   - vendor
 
 collections:
