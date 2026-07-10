@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: /
-title: "David Degras"
-excerpt: "David Degras is an associate professor of mathematics at the University of Massachusetts Boston working in high-dimensional statistics, functional data analysis, statistical computing, machine learning, and neuroimaging."
+title: "David Degras-Valabregue"
+excerpt: "David Degras-Valabregue is an associate professor of mathematics at the University of Massachusetts Boston working in high-dimensional statistics, functional data analysis, statistical computing, machine learning, and neuroimaging."
 redirect_from:
   - /about/
   - /about.html
@@ -12,15 +12,15 @@ redirect_from:
   <section class="home-hero" aria-labelledby="home-title">
     <div class="home-intro">
       <div class="home-person">
-        <img class="home-portrait" src="{{ '/images/biophoto.png' | relative_url }}" alt="David Degras" width="200" height="200">
+        <img class="home-portrait" src="{{ '/images/biophoto.png' | relative_url }}" alt="David Degras-Valabregue" width="200" height="200">
         <div class="home-person-copy">
-          <p class="home-person-name">David Degras</p>
+          <p class="home-person-name">David Degras-Valabregue</p>
           <p class="home-kicker">Statistics · Mathematics · Boston</p>
         </div>
       </div>
       <h1 id="home-title">Structure in <em>data.</em></h1>
       <p class="home-role">Associate Professor · Department of Mathematics · University of Massachusetts Boston</p>
-      <p class="home-lead">David Degras develops statistical methods and software for functional, high-dimensional, and neuroimaging data.</p>
+      <p class="home-lead">David Degras-Valabregue develops statistical methods and software for functional, high-dimensional, and neuroimaging data.</p>
       <div class="home-actions" aria-label="Primary actions">
         <a class="home-action home-action--primary" href="{{ '/research/' | relative_url }}">Research <span aria-hidden="true">↗</span></a>
         <a class="home-action" href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">↗</span></a>
@@ -66,7 +66,7 @@ redirect_from:
       <h2 id="about-heading">Statistical structure, computational methods, and scientific data.</h2>
     </div>
     <div class="home-about-grid">
-      <p class="home-about-statement">David Degras is an Associate Professor in the Department of Mathematics at the University of Massachusetts Boston.</p>
+      <p class="home-about-statement">David Degras-Valabregue is an Associate Professor in the Department of Mathematics at the University of Massachusetts Boston.</p>
       <div class="home-about-copy">
         <p>His research spans high-dimensional statistics, functional data analysis, statistical computing, machine learning, convex and combinatorial optimization, and neuroimaging. He is particularly interested in methods that preserve the geometry and temporal structure of complex observations.</p>
         <p>These questions connect work on simultaneous confidence bands, online principal component analysis, model segmentation, Markov-switching systems, and feature matching across large data collections. Implementations are released as open-source R, C++, and MATLAB software.</p>

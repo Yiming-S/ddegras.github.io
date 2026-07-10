@@ -1,7 +1,7 @@
-# David Degras — academic website
+# David Degras-Valabregue — academic website
 
-Source for the academic website of David Degras, Associate Professor in the
-Department of Mathematics at the University of Massachusetts Boston. The site
+Source for the academic website of David Degras-Valabregue, Associate Professor
+in the Department of Mathematics at the University of Massachusetts Boston. The site
 presents his research, publications, open-source software, teaching, and
 academic profile in a small, maintainable Jekyll project.
 

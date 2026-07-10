@@ -1,4 +1,4 @@
-# David Degras Website — Content Guide
+# David Degras-Valabregue Website — Content Guide
 
 This guide explains how to update the website without changing its design or
 technical structure. Routine content updates can be completed entirely in the

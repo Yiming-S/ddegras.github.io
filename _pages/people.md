@@ -4,13 +4,13 @@ title: "People"
 permalink: /people/
 ---
 
-I supervise and collaborate on statistical learning, functional data analysis, scientific computing, neuroimaging, and related data-intensive problems. For research inquiries, contact [David Degras](mailto:David.Degras@umb.edu) or connect through [GitHub](https://github.com/ddegras).
+I supervise and collaborate on statistical learning, functional data analysis, scientific computing, neuroimaging, and related data-intensive problems. For research inquiries, contact [David Degras-Valabregue](mailto:David.Degras@umb.edu) or connect through [GitHub](https://github.com/ddegras).
 
 ## Students and collaborators
 
 ### [Yiming Shen](https://yimings.com.cn/)
 
-*Ph.D. Candidate in Computational Science (Data Analytics), University of Massachusetts Boston · Expected graduation: May 2026*
+*Ph.D. Candidate in Computational Science (Data Analytics), University of Massachusetts Boston · Expected graduation: August 2026*
 
 He develops reliable cross-session EEG/BCI decoding methods and reproducible R/Python tools for session drift, domain adaptation, and nonstationary time-series analysis.
 

@@ -1,4 +1,4 @@
-# David Degras — visual design system
+# David Degras-Valabregue — visual design system
 
 This document is the source of truth for the visual language of the site. It
 keeps future pages consistent with the French editorial mathematics direction.

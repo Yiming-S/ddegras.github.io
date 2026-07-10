@@ -6,7 +6,7 @@ redirect_from:
   - /resume
 ---
 
-David Degras is an Associate Professor in the Department of Mathematics at the University of Massachusetts Boston.
+David Degras-Valabregue is an Associate Professor in the Department of Mathematics at the University of Massachusetts Boston.
 
 ## Education
 

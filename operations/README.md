@@ -1,8 +1,8 @@
 # Website Operations
 
-Internal runbook for building, testing, publishing, and transferring David
-Degras's academic website. These notes are for repository maintainers and are
-not part of the public website.
+Internal runbook for building, testing, publishing, and transferring the
+academic website of David Degras-Valabregue. These notes are for repository
+maintainers and are not part of the public website.
 
 ## Local preview
 
@@ -30,7 +30,7 @@ Pages publishes the `main` branch from the repository root.
 - Website: <https://yiming-s.github.io/ddegras.github.io/>
 
 The temporary deployment values are stored near the top of `_config.yml`.
-Ownership has not yet been transferred to David Degras.
+Ownership has not yet been transferred to David Degras-Valabregue.
 
 After each deployment, verify:
 
