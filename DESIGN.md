@@ -48,9 +48,9 @@ single component.
 
 ## Components
 
-- **Masthead:** name on the left at wide widths; all destinations form one
-  visually centered row with a consistent type scale, active-page rule, and
-  spacing.
+- **Masthead:** name aligns to the left content edge at wide widths; all
+  destinations form one right-aligned row ending at the right content edge,
+  with a consistent type scale, active-page rule, and spacing.
 - **Feature page header:** one editorial headline and one short deck replace
   duplicated page titles on Research, Publications, Presentations, and
   Software.
@@ -83,7 +83,7 @@ ivory surface.
 ## Responsive behavior
 
 - At widths below `760px`, stack the hero and research map.
-- Below `1180px`, center the name above the navigation and let the unified link
+- Below `900px`, center the name above the navigation and let the unified link
   row wrap symmetrically.
 - Publication records remain one column with the year as a visible section
   heading.

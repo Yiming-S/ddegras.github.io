@@ -52,7 +52,7 @@ p, ul, ol { margin-top: 0; }
 
 .site-nav {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-columns: auto minmax(0, 1fr);
   gap: 24px;
   align-items: center;
   max-width: 1120px;
@@ -75,7 +75,7 @@ p, ul, ol { margin-top: 0; }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 12px 22px;
 }
 
@@ -647,10 +647,10 @@ p, ul, ol { margin-top: 0; }
 
 :focus-visible { outline: 2px solid var(--vermilion); outline-offset: 4px; }
 
-@media (max-width: 1180px) {
+@media (max-width: 900px) {
   .site-nav { grid-template-columns: 1fr; gap: 14px; }
   .site-brand { justify-self: center; }
-  .site-nav__links { grid-column: 1; justify-self: stretch; }
+  .site-nav__links { grid-column: 1; justify-self: stretch; justify-content: center; }
 }
 
 @media (max-width: 700px) {
