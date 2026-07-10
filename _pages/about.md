@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: "David Degras"
-excerpt: "David Degras — associate professor of mathematics at the University of Massachusetts Boston."
+excerpt: "David Degras is an associate professor of mathematics at the University of Massachusetts Boston working in high-dimensional statistics, functional data analysis, statistical computing, machine learning, and neuroimaging."
 redirect_from:
   - /about/
   - /about.html
@@ -20,7 +20,7 @@ redirect_from:
       </div>
       <h1 id="home-title">Structure in <em>data.</em></h1>
       <p class="home-role">Associate Professor · Department of Mathematics · University of Massachusetts Boston</p>
-      <p class="home-lead">David Degras develops statistical methods for functional, high-dimensional, and neuroimaging data.</p>
+      <p class="home-lead">David Degras develops statistical methods and software for functional, high-dimensional, and neuroimaging data.</p>
       <div class="home-actions" aria-label="Primary actions">
         <a class="home-action home-action--primary" href="{{ '/research/' | relative_url }}">Research <span aria-hidden="true">↗</span></a>
         <a class="home-action" href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">↗</span></a>
@@ -60,9 +60,25 @@ redirect_from:
     </section>
   </section>
 
+  <section class="home-section home-about" aria-labelledby="about-heading">
+    <div class="home-section-heading">
+      <div class="home-section-label">01 / About</div>
+      <h2 id="about-heading">Statistical structure, computational methods, and scientific data.</h2>
+    </div>
+    <div class="home-about-grid">
+      <p class="home-about-statement">David Degras is an Associate Professor in the Department of Mathematics at the University of Massachusetts Boston.</p>
+      <div class="home-about-copy">
+        <p>His research spans high-dimensional statistics, functional data analysis, statistical computing, machine learning, convex and combinatorial optimization, and neuroimaging. He is particularly interested in methods that preserve the geometry and temporal structure of complex observations.</p>
+        <p>These questions connect work on simultaneous confidence bands, online principal component analysis, model segmentation, Markov-switching systems, and feature matching across large data collections. Implementations are released as open-source R, C++, and MATLAB software.</p>
+        <p>He received his PhD in Statistics from Université Paris VI in 2008.</p>
+        <p class="home-profile-links"><a href="https://www.umb.edu/directory/daviddegras/">UMass Boston profile <span aria-hidden="true">↗</span></a><a href="https://scholar.google.com/citations?user=CYLjVg4AAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a><a href="https://um-boston.academia.edu/DavidDegras">Academia <span aria-hidden="true">↗</span></a></p>
+      </div>
+    </div>
+  </section>
+
   <section class="home-section selected-work" aria-labelledby="selected-heading">
     <div class="home-section-heading">
-      <div class="home-section-label">01 / Selected work</div>
+      <div class="home-section-label">02 / Selected work</div>
       <h2 id="selected-heading">Methods become useful when they leave a trace.</h2>
     </div>
     <div class="home-paper-list">
@@ -81,7 +97,7 @@ redirect_from:
 
   <section class="home-section" aria-labelledby="software-heading">
     <div class="home-section-heading">
-      <div class="home-section-label">02 / Open work</div>
+      <div class="home-section-label">03 / Open work</div>
       <h2 id="software-heading">Research software is part of the mathematical record.</h2>
     </div>
     <p class="software-line"><a href="https://github.com/ddegras/onlinePCA">onlinePCA</a><a href="https://github.com/ddegras/sparseGFL">sparseGFL</a><a href="https://github.com/ddegras/switch-ssm">switch-ssm</a><a href="https://github.com/ddegras/tensorMCCA">tensorMCCA</a><a href="https://github.com/ddegras/matchFeat">matchFeat</a><a href="https://github.com/ddegras/SCBmeanfd">SCBmeanfd</a></p>
