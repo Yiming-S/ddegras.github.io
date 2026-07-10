@@ -15,6 +15,11 @@ redirect_from:
         <img class="home-portrait" src="{{ '/images/biophoto.png' | relative_url }}" alt="David Degras-Valabregue" width="200" height="200">
         <div class="home-person-copy">
           <p class="home-kicker">Statistics · Mathematics · Boston</p>
+          <span class="home-tricolor" aria-hidden="true">
+            <span class="home-tricolor__blue"></span>
+            <span class="home-tricolor__white"></span>
+            <span class="home-tricolor__red"></span>
+          </span>
         </div>
       </div>
       <h1 id="home-title">Structure in <em>data.</em></h1>

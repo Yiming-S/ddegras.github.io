@@ -28,6 +28,15 @@ Use cobalt for navigation and links, vermilion for emphasis, and pale yellow
 or sage only as supporting marks. Never use all accents with equal weight in a
 single component.
 
+### Homepage tricolor
+
+The homepage translates the French tricolor into an editorial palette rather
+than reproducing a flag. It retains the warm ivory surface and uses a deeper
+French navy (`#1F4B7A`) for structure and a clearer red (`#B23A3A`) for small
+signals. Ivory remains dominant; navy provides hierarchy, while red stays below
+ten percent of the visible color. A single 45px blue-white-red rule beside the
+portrait is the only literal tricolor mark.
+
 ### Typography
 
 - Display and section headings: Iowan Old Style or Palatino, with Georgia as a
@@ -56,9 +65,9 @@ single component.
 - **Feature page header:** one editorial headline and one short deck replace
   duplicated page titles on Research, Publications, Presentations, and
   Software.
-- **Hero:** a restrained editorial portrait, identity, role, one sentence of
-  research positioning, and three direct actions. The main visual remains a
-  research map built from real topics.
+- **Hero:** a restrained editorial portrait, one small tricolor rule, identity,
+  role, one sentence of research positioning, and three direct actions. The
+  main visual remains a research map built from real topics.
 - **Research chapter:** numbered editorial row with a question, method, and
   links to a paper or repository.
 - **Publication record:** year rail, title, venue, short description, DOI or
