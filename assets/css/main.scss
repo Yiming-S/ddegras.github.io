@@ -52,7 +52,7 @@ p, ul, ol { margin-top: 0; }
 
 .site-nav {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
   gap: 24px;
   align-items: center;
   max-width: 1120px;
@@ -64,24 +64,22 @@ p, ul, ol { margin-top: 0; }
   color: var(--ink);
   font-family: var(--serif);
   font-size: 22px;
+  justify-self: start;
   letter-spacing: -.05em;
   text-decoration: none;
   white-space: nowrap;
 }
 
-.site-nav__primary,
-.site-nav__secondary {
+.site-nav__links {
+  grid-column: 2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  gap: 12px 22px;
 }
 
-.site-nav__primary { gap: 12px 20px; }
-.site-nav__secondary { gap: 8px 12px; }
-
-.site-nav__primary a,
-.site-nav__secondary a {
+.site-nav__links a {
   color: var(--muted);
   font-size: 10px;
   letter-spacing: .12em;
@@ -89,7 +87,6 @@ p, ul, ol { margin-top: 0; }
   text-transform: uppercase;
 }
 
-.site-nav__secondary a { font-size: 9px; letter-spacing: .08em; }
 .site-nav a:hover,
 .site-nav a:focus { color: var(--cobalt); }
 
@@ -490,15 +487,16 @@ p, ul, ol { margin-top: 0; }
 
 :focus-visible { outline: 2px solid var(--vermilion); outline-offset: 4px; }
 
-@media (max-width: 900px) {
-  .site-nav { grid-template-columns: auto 1fr; }
-  .site-nav__secondary { grid-column: 1 / -1; justify-content: flex-start; }
+@media (max-width: 1020px) {
+  .site-nav { grid-template-columns: 1fr; gap: 14px; }
+  .site-brand { justify-self: center; }
+  .site-nav__links { grid-column: 1; justify-self: stretch; }
 }
 
 @media (max-width: 700px) {
-  .site-nav { display: flex; align-items: flex-start; flex-direction: column; gap: 13px; }
-  .site-nav__primary,
-  .site-nav__secondary { justify-content: flex-start; gap: 10px 15px; }
+  .site-nav { gap: 12px; padding: 16px 18px; }
+  .site-brand { font-size: 21px; }
+  .site-nav__links { gap: 10px 15px; }
   .home-hero { grid-template-columns: 1fr; gap: 40px; padding: 48px 0 54px; }
   .home-portrait { width: 68px; height: 68px; }
   .home-section-heading { grid-template-columns: 1fr; gap: 14px; }

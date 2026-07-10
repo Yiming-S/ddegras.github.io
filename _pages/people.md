@@ -24,6 +24,4 @@ He develops statistical and AI methods for entity resolution and record linkage,
 
 ### [Colleen Lombard](https://www.linkedin.com/in/colleen-lombard-7b398b273/)
 
-*Undergraduate Student*
-
-Colleen is an undergraduate student advised by David Degras-Valabregue.
+*Undergraduate student advised by David Degras-Valabregue*

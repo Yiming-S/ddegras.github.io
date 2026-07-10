@@ -48,8 +48,8 @@ single component.
 
 ## Components
 
-- **Masthead:** name on the left; four primary destinations; People and
-  Teaching remain secondary.
+- **Masthead:** name on the left at wide widths; all destinations form one
+  visually centered row with a consistent type scale and spacing.
 - **Hero:** a restrained editorial portrait, identity, role, one sentence of
   research positioning, and three direct actions. The main visual remains a
   research map built from real topics.
@@ -73,7 +73,8 @@ ivory surface.
 ## Responsive behavior
 
 - At widths below `760px`, stack the hero and research map.
-- Keep primary navigation compact; secondary links may wrap below it.
+- Below `1020px`, center the name above the navigation and let the unified link
+  row wrap symmetrically.
 - Publication records remain one column with the year as a visible section
   heading.
 - Research rows should never require horizontal scrolling.
