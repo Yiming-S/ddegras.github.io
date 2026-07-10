@@ -2,13 +2,14 @@
 layout: page
 title: "Publications"
 permalink: /publications/
+page_style: publications
+eyebrow: "Publications / Selected and complete"
+headline: "Statistical methods for data with curves, regimes, and changing structure."
+deck: >-
+  Publication records are also available through [Google
+  Scholar](https://scholar.google.com/citations?user=CYLjVg4AAAAJ&hl=en) and
+  [Academia](https://um-boston.academia.edu/DavidDegras).
 ---
-
-<div class="publication-page-intro">
-  <p class="research-kicker">Publications / Selected and complete</p>
-  <h2>Statistical methods for data with curves, regimes, and changing structure.</h2>
-  <p>Publication records are also available through <a href="https://scholar.google.com/citations?user=CYLjVg4AAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://um-boston.academia.edu/DavidDegras">Academia</a>.</p>
-</div>
 
 <section class="selected-publications" aria-labelledby="selected-publications-heading">
   <div class="archive-section-heading">

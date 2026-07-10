@@ -2,15 +2,15 @@
 layout: page
 title: "Presentations"
 permalink: /presentations/
+page_style: presentations
+eyebrow: "Presentations / Seminars and conferences"
+headline: "Ideas in conversation with mathematical and scientific communities."
+deck: >-
+  Selected invited talks, conference presentations, seminars, and tutorials
+  are collected here as verified records become available.
 redirect_from:
   - /talks/
 ---
-
-<div class="presentation-page-intro">
-  <p class="research-kicker">Presentations / Seminars and conferences</p>
-  <h2>Ideas in conversation with mathematical and scientific communities.</h2>
-  <p>Selected invited talks, conference presentations, seminars, and tutorials are collected here as verified records become available.</p>
-</div>
 
 {% assign presentations = site.data.presentations.presentations | sort: "date" | reverse %}
 {% if presentations and presentations.size > 0 %}

@@ -159,7 +159,7 @@ layout changes, ask the site maintainer rather than modifying the shared CSS.
   ```markdown
   ### [Name](https://profile-address.example/)
 
-  *Academic status · Institution · Expected graduation, if applicable*
+  *Academic status or degree · Institution · Graduation date, if applicable*
 
   One sentence describing the person's research or work.
   ```

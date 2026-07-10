@@ -30,9 +30,9 @@ single component.
 
 ### Typography
 
-- Display and section headings: Georgia or a high-contrast editorial serif,
-  weight 400.
-- Body and navigation: Arial or a neutral sans-serif.
+- Display and section headings: Iowan Old Style or Palatino, with Georgia as a
+  fallback, at weight 400.
+- Body and navigation: the operating-system interface sans-serif stack.
 - Eyebrows, years, and metadata: sans-serif, 10–12px, uppercase, tracking
   between `.12em` and `.16em`.
 - Body copy: 16–18px with 1.55–1.7 line-height and a 62–72 character measure.
@@ -49,7 +49,11 @@ single component.
 ## Components
 
 - **Masthead:** name on the left at wide widths; all destinations form one
-  visually centered row with a consistent type scale and spacing.
+  visually centered row with a consistent type scale, active-page rule, and
+  spacing.
+- **Feature page header:** one editorial headline and one short deck replace
+  duplicated page titles on Research, Publications, Presentations, and
+  Software.
 - **Hero:** a restrained editorial portrait, identity, role, one sentence of
   research positioning, and three direct actions. The main visual remains a
   research map built from real topics.
@@ -61,6 +65,12 @@ single component.
   optional slides, video, or event link.
 - **Software record:** project name, one-line method description, language or
   application context, and repository link.
+- **People directory:** automatically numbered groups with aligned names,
+  academic status, and one concise description.
+- **Course record:** course-code rail, catalog-linked title, stable description,
+  and optional prerequisite.
+- **CV section:** small uppercase section heading followed by restrained record
+  rows rather than a generic bulleted document.
 - **Footer:** GitHub, contact, Google Scholar, and Academia.
 
 ## Motion and accessibility
@@ -73,7 +83,7 @@ ivory surface.
 ## Responsive behavior
 
 - At widths below `760px`, stack the hero and research map.
-- Below `1020px`, center the name above the navigation and let the unified link
+- Below `1180px`, center the name above the navigation and let the unified link
   row wrap symmetrically.
 - Publication records remain one column with the year as a visible section
   heading.

@@ -2,6 +2,7 @@
 layout: page
 title: "People"
 permalink: /people/
+page_style: people
 ---
 
 I supervise and collaborate on statistical learning, functional data analysis, scientific computing, neuroimaging, and related data-intensive problems. For research inquiries, contact [David Degras-Valabregue](mailto:David.Degras@umb.edu) or connect through [GitHub](https://github.com/ddegras).

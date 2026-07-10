@@ -2,13 +2,14 @@
 layout: page
 title: "Research"
 permalink: /research/
+page_style: research
+eyebrow: "Research / Questions and methods"
+headline: "How can statistical models make structure visible without flattening the data?"
+deck: >-
+  I develop statistical methods for structured, high-dimensional, and
+  functional data, with applications in neuroimaging and related scientific
+  problems.
 ---
-
-<div class="research-page-intro">
-  <p class="research-kicker">Research / Questions and methods</p>
-  <h2>How can statistical models make structure visible without flattening the data?</h2>
-  <p>I develop statistical methods for structured, high-dimensional, and functional data, with applications in neuroimaging and related scientific problems.</p>
-</div>
 
 <div class="research-chapters">
   <section class="research-chapter" id="functional-data">

@@ -2,13 +2,14 @@
 layout: page
 title: "Software"
 permalink: /software/
+page_style: software
+eyebrow: "Software / Open work"
+headline: "Methods become reproducible when the implementation is part of the record."
+deck: >-
+  Selected research software is maintained on
+  [GitHub](https://github.com/ddegras). Each project below connects a
+  statistical idea to a working implementation.
 ---
-
-<div class="software-page-intro">
-  <p class="research-kicker">Software / Open work</p>
-  <h2>Methods become reproducible when the implementation is part of the record.</h2>
-  <p>Selected research software is maintained on <a href="https://github.com/ddegras">GitHub</a>. Each project below connects a statistical idea to a working implementation.</p>
-</div>
 
 <div class="software-grid">
   <article class="software-card software-card--featured">

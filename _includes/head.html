@@ -6,7 +6,8 @@
   {% else %}
     {% capture document_title %}{{ page.title }} — {{ site.title }}{% endcapture %}
   {% endif %}
-  {% assign document_description = page.excerpt | default: site.description | strip_html | strip_newlines %}
+  {% assign raw_description = page.excerpt | default: page.deck | default: site.description %}
+  {% assign document_description = raw_description | markdownify | strip_html | strip_newlines %}
   <title>{{ document_title }}</title>
   <meta name="description" content="{{ document_description }}">
   <meta property="og:title" content="{{ document_title }}">
@@ -14,5 +15,10 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% if site.github.build_revision %}
+    {% assign asset_version = site.github.build_revision %}
+  {% else %}
+    {% assign asset_version = site.time | date: "%s" %}
+  {% endif %}
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ asset_version }}">
 </head>

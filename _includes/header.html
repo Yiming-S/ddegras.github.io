@@ -1,12 +1,24 @@
 <header class="site-header">
   <nav class="site-nav" aria-label="Main navigation">
-    <a class="site-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="site-brand" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>{{ site.title }}</a>
     <div class="site-nav__links">
       {% for item in site.data.navigation.primary %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% assign nav_current = false %}
+        {% if page.url == item.url %}
+          {% assign nav_current = true %}
+        {% elsif item.url != '/' and page.url contains item.url %}
+          {% assign nav_current = true %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}"{% if nav_current %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
       {% for item in site.data.navigation.secondary %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% assign nav_current = false %}
+        {% if page.url == item.url %}
+          {% assign nav_current = true %}
+        {% elsif item.url != '/' and page.url contains item.url %}
+          {% assign nav_current = true %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}"{% if nav_current %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
     </div>
   </nav>

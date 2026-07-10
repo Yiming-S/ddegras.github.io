@@ -2,6 +2,7 @@
 layout: page
 title: "CV"
 permalink: /cv/
+page_style: cv
 redirect_from:
   - /resume
 ---
