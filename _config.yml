@@ -27,6 +27,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - operations
   - README.md
   - WEBSITE_GUIDE.md
   - vendor
