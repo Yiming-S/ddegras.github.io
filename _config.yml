@@ -11,9 +11,10 @@ title                    : "David Degras"
 title_separator          : "-"
 name                     : &name "David Degras"
 description              : &description "Associate Professor, Department of Mathematics"
-url                      : https://ddegras.github.io # the base hostname & protocol for your site
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ddegras/ddegras.github.io"
+# Temporary project-page URL until the repository is transferred to ddegras.
+url                      : https://yiming-s.github.io # the base hostname & protocol for your site
+baseurl                  : "/ddegras.github.io" # the subpath of your site, e.g. "/blog"
+repository               : "Yiming-S/ddegras.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
