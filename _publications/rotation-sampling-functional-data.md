@@ -1,6 +1,8 @@
 ---
 title: "Rotation Sampling for Functional Data"
 collection: publications
+redirect_from:
+  - "/publications/Rotation Sampling for Functional Data"
 venue: "Statistica Sinica"
 date: 2014-07-01
 citation: '<b>D. Degras</b>, Volume 24, No. 3, July 2014, Pages 1075-1095.'

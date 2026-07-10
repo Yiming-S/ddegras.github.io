@@ -1,6 +1,8 @@
 ---
 title: "A General Benevolence Dimension That Links Neural, Psychological, Economic, and Life-Span Data on Altruistic Tendencies"
 collection: publications
+redirect_from:
+  - "/publications/A General Benevolence Dimension That Links Neural, Psychological, Economic, and Life-Span Data on Altruistic Tendencies"
 venue: "Journal of Experimental psychology. General"
 date: 2016-08-10
 citation: J. Hubbard, W. Harbaugh, S. Srivastava, <b>D. Degras</b>, U. Mayr, Volume 145, No. 10, 10 Aug 2016, Pages 1351-1358.'

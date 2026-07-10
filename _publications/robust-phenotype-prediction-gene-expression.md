@@ -1,6 +1,8 @@
 ---
 title: "Robust phenotype prediction from gene expression data using differential shrinkage of co-regulated genes"
 collection: publications
+redirect_from:
+  - "/publications/Robust phenotype prediction from gene expression data using differential shrinkage of co-regulated genes"
 venue: "Scientific Reports"
 date: 2018-01-19
 citation: 'K. Zarringhalam, <b>D. Degras</b>, C. Brockel, D. Ziemek, 8(1), 1237 - January 2018'

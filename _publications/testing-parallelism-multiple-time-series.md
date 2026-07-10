@@ -1,6 +1,8 @@
 ---
 title: "Testing for Parallelism Among Trends in Multiple Time Series"
 collection: publications
+redirect_from:
+  - "/publications/Testing for Parallelism Among Trends in Multiple Time Series"
 venue: "IEEE Transactions on Signal Processing "
 date: 2012-03-02
 citation: '<b>D. Degras</b>, Z. Xu, T. Zhang, W. Wu, Volume 60, Issue 3, March 2012, Pages 1087 - 1097.'

@@ -1,6 +1,8 @@
 ---
 title: "A Hierarchical Model for Simultaneous Detection and Estimation in Multi-subject fMRI Studies"
 collection: publications
+redirect_from:
+  - "/publications/A Hierarchical Model for Simultaneous Detection and Estimation in Multi-subject fMRI Studies"
 venue: "NeuroImage"
 date: 2014-09-01
 citation: '<b>D. Degras</b>, M. Lindquist, 2014 Sep;98:61-72. doi: 10.1016/j.neuroimage.2014.04.052. Epub 2014 May 2.'

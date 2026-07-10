@@ -1,6 +1,8 @@
 ---
 title: "Simultaneous confidence bands for the mean of functional data"
 collection: publications
+redirect_from:
+  - "/publications/Simultaneous confidence bands for the mean of functional data"
 venue: "WIREs Computational Statistics"
 date: 2017-03-28
 citation: '<b>D. Degras</b>, Volume 9, Issue 3, 28 March 2017, e1397.'

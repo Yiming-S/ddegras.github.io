@@ -1,6 +1,8 @@
 ---
 title: "Confidence bands for Horvitz–Thompson estimators using sampled noisy functional data"
 collection: publications
+redirect_from:
+  - "/publications/Confidence bands for Horvitz–Thompson estimators using sampled noisy functional data"
 venue: "Bernoulli"
 date: 2013-12-11
 citation: 'H. Cardot, <b>D. Degras</b>, E. Josserand, Volume 19, No.5A, 11 Dec 2013, Pages 2067-2097.'

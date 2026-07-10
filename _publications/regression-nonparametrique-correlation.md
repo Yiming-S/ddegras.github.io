@@ -2,6 +2,8 @@
 title: "Régression non paramétrique en présence de corrélation: Applications aux données fonctionnelles (OMN.PRES.FRANC.) (French Edition) "
 collection: publications
 type: "Book"
+redirect_from:
+  - "/publications/Régression non"
 venue: "Presses Académiques Francophones(BOOK)"
 date: 2012-10-01
 citation: '<b>D. Degras</b>, October 1, 2012, ISBN-10:9783838171760'

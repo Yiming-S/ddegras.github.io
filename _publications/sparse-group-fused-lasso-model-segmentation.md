@@ -1,6 +1,8 @@
 ---
 title: "Sparse group fused lasso for model segmentation: a hybrid approach"
 collection: publications
+redirect_from:
+  - "/publications/Sparse group fused lasso for model segmentation"
 venue: "Advances in Data Analysis and Classification"
 date: 2020-10-22
 citation: '<b>D. Degras</b>, 22 October 2020, DOI 10.1007/s11634-020-00424-5'
