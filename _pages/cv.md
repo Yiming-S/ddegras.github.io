@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CV"
+title: "Academic Profile"
 permalink: /cv/
 page_style: cv
 redirect_from:

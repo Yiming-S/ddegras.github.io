@@ -26,7 +26,7 @@ deck: >-
     <p class="software-meta">Change points · Sparse estimation</p>
   </article>
 
-  <article class="software-card software-card--featured">
+  <article class="software-card">
     <p class="software-index">03 / MATLAB</p>
     <h2><a href="https://github.com/ddegras/switch-ssm">switch-ssm ↗</a></h2>
     <p>Markov-switching state-space models, including EM estimation, simulation, bootstrap inference, and neuroimaging examples.</p>

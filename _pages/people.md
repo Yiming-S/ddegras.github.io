@@ -5,26 +5,19 @@ permalink: /people/
 page_style: people
 ---
 
-I supervise and collaborate on statistical learning, functional data analysis, scientific computing, neuroimaging, and related data-intensive problems. For research inquiries, contact [David Degras-Valabregue](mailto:David.Degras@umb.edu) or connect through [GitHub](https://github.com/ddegras).
+<p class="people-intro">I supervise and collaborate on statistical learning, functional data analysis, scientific computing, neuroimaging, and related data-intensive problems. For research inquiries, contact <a href="mailto:David.Degras@umb.edu">David Degras-Valabregue</a> or connect through <a href="https://github.com/ddegras">GitHub</a>.</p>
 
-## Graduate students
-
-### [Xinmin Chu](https://github.com/xinminchu)
-
-*Ph.D. Candidate in Computational Science, University of Massachusetts Boston · M.S. in Statistics · Ph.D. in Economics*
-
-He develops statistical and AI methods for entity resolution and record linkage, including the R package [erbot](https://github.com/xinminchu/erbot).
-
-## Undergraduate students
-
-### [Colleen Lombard](https://www.linkedin.com/in/colleen-lombard-7b398b273/)
-
-*Undergraduate student advised by David Degras-Valabregue*
-
-## Alumni
-
-### [Yiming Shen](https://yimings.com.cn/)
-
-*Ph.D. in Computational Science (Data Analytics), University of Massachusetts Boston · Graduation: August 2026*
-
-He develops reliable cross-session EEG/BCI decoding methods and reproducible R/Python tools for session drift, domain adaptation, and nonstationary time-series analysis.
+<div class="people-directory">
+  {% for person in site.data.people.people %}
+    <article class="person-record">
+      <p class="person-category">{{ person.category }}</p>
+      <div class="person-record__body">
+        <h2><a href="{{ person.url }}">{{ person.name }}</a></h2>
+        <p class="person-status">{{ person.status }}</p>
+        {% if person.description %}
+          <div class="person-description">{{ person.description | markdownify }}</div>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

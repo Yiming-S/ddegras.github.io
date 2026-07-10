@@ -14,13 +14,12 @@ redirect_from:
       <div class="home-person">
         <img class="home-portrait" src="{{ '/images/biophoto.png' | relative_url }}" alt="David Degras-Valabregue" width="200" height="200">
         <div class="home-person-copy">
-          <p class="home-person-name">David Degras-Valabregue</p>
           <p class="home-kicker">Statistics · Mathematics · Boston</p>
         </div>
       </div>
       <h1 id="home-title">Structure in <em>data.</em></h1>
       <p class="home-role">Associate Professor · Department of Mathematics · University of Massachusetts Boston</p>
-      <p class="home-lead">David Degras-Valabregue develops statistical methods and software for functional, high-dimensional, and neuroimaging data.</p>
+      <p class="home-lead">He develops statistical methods and software for functional, high-dimensional, and neuroimaging data.</p>
       <div class="home-actions" aria-label="Primary actions">
         <a class="home-action home-action--primary" href="{{ '/research/' | relative_url }}">Research <span aria-hidden="true">↗</span></a>
         <a class="home-action" href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">↗</span></a>
@@ -82,14 +81,14 @@ redirect_from:
       <h2 id="selected-heading">Methods become useful when they leave a trace.</h2>
     </div>
     <div class="home-paper-list">
+      <a class="home-paper-row" href="{{ '/publications/scalable-feature-matching-large-data-collections/' | relative_url }}">
+        <span class="home-paper-year">2023</span><span class="home-paper-title">Scalable Feature Matching Across Large Data Collections</span><span class="home-paper-venue">Journal of Computational and Graphical Statistics</span><span class="research-arrow" aria-hidden="true">↗</span>
+      </a>
       <a class="home-paper-row" href="{{ '/publications/markov-switching-state-space-models-neuroimaging/' | relative_url }}">
         <span class="home-paper-year">2022</span><span class="home-paper-title">Markov-switching state-space models with applications to neuroimaging</span><span class="home-paper-venue">Computational Statistics &amp; Data Analysis</span><span class="research-arrow" aria-hidden="true">↗</span>
       </a>
       <a class="home-paper-row" href="{{ '/publications/sparse-group-fused-lasso-model-segmentation/' | relative_url }}">
         <span class="home-paper-year">2020</span><span class="home-paper-title">Sparse group fused lasso for model segmentation</span><span class="home-paper-venue">Advances in Data Analysis and Classification</span><span class="research-arrow" aria-hidden="true">↗</span>
-      </a>
-      <a class="home-paper-row" href="{{ '/publications/online-principal-component-analysis-high-dimension/' | relative_url }}">
-        <span class="home-paper-year">2017</span><span class="home-paper-title">Online principal component analysis in high dimension</span><span class="home-paper-venue">International Statistical Review</span><span class="research-arrow" aria-hidden="true">↗</span>
       </a>
     </div>
     <p class="section-link"><a href="{{ '/publications/' | relative_url }}">See the complete publication record <span aria-hidden="true">↗</span></a></p>

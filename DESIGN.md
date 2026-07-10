@@ -17,12 +17,12 @@ dashboard cards, or animated illustrations without a clear research purpose.
 - `surface`: `#F4EFE7` — warm ivory page background
 - `surface-raised`: `#FBF8F2` — paper panels and selected work
 - `ink`: `#171B22` — headings and primary text
-- `muted`: `#6D7072` — secondary text and captions
+- `muted`: `#5F6366` — secondary text and captions
 - `rule`: `rgba(23, 27, 34, .18)` — hairline dividers
 - `cobalt`: `#244EB5` — primary links and research navigation
-- `vermilion`: `#C94E36` — signal, active state, and emphasis
+- `vermilion`: `#A74432` — signal, active state, and emphasis
 - `pale-yellow`: `#E9C967` — restrained highlight only
-- `sage`: `#7DA18D` — rare supporting accent
+- `sage`: `#456F5E` — rare supporting accent
 
 Use cobalt for navigation and links, vermilion for emphasis, and pale yellow
 or sage only as supporting marks. Never use all accents with equal weight in a
@@ -33,7 +33,7 @@ single component.
 - Display and section headings: Iowan Old Style or Palatino, with Georgia as a
   fallback, at weight 400.
 - Body and navigation: the operating-system interface sans-serif stack.
-- Eyebrows, years, and metadata: sans-serif, 10–12px, uppercase, tracking
+- Eyebrows, years, and metadata: sans-serif, 11–12px, uppercase, tracking
   between `.12em` and `.16em`.
 - Body copy: 16–18px with 1.55–1.7 line-height and a 62–72 character measure.
 
@@ -65,20 +65,20 @@ single component.
   optional slides, video, or event link.
 - **Software record:** project name, one-line method description, language or
   application context, and repository link.
-- **People directory:** automatically numbered groups with aligned names,
-  academic status, and one concise description.
+- **People directory:** one unified list with category labels, aligned names,
+  academic status, and at most one concise description.
 - **Course record:** course-code rail, catalog-linked title, stable description,
   and optional prerequisite.
-- **CV section:** small uppercase section heading followed by restrained record
-  rows rather than a generic bulleted document.
+- **Academic profile section:** small uppercase section heading followed by
+  restrained record rows rather than a generic résumé document.
 - **Footer:** GitHub, contact, Google Scholar, and Academia.
 
 ## Motion and accessibility
 
 Motion is limited to short link and arrow transitions. Do not animate the page
 continuously. Every interactive element needs a visible keyboard focus state.
-Respect `prefers-reduced-motion: reduce` and preserve readable contrast on the
-ivory surface.
+Respect `prefers-reduced-motion: reduce`; small text and colored metadata must
+maintain at least 4.5:1 contrast on both ivory surfaces.
 
 ## Responsive behavior
 

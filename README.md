@@ -20,6 +20,7 @@ public profiles:
 ```text
 _config.yml              Identity, deployment URL, and Jekyll settings
 _data/navigation.yml     Header navigation
+_data/people.yml         People directory records
 _data/presentations.yml  Presentation records, sorted automatically
 _includes/               Header, footer, metadata, and publication row
 _layouts/                Home, standard page, and publication layouts

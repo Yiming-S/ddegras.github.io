@@ -1,0 +1,22 @@
+people:
+  - name: "Xinmin Chu"
+    category: "Graduate student"
+    url: "https://github.com/xinminchu"
+    status: "Ph.D. Candidate in Computational Science, University of Massachusetts Boston · M.S. in Statistics · Ph.D. in Economics"
+    description: >-
+      He develops statistical and AI methods for entity resolution and record
+      linkage, including the R package [erbot](https://github.com/xinminchu/erbot).
+
+  - name: "Colleen Lombard"
+    category: "Undergraduate student"
+    url: "https://www.linkedin.com/in/colleen-lombard-7b398b273/"
+    status: "Advised by David Degras-Valabregue"
+
+  - name: "Yiming Shen"
+    category: "Alumnus"
+    url: "https://yimings.com.cn/"
+    status: "Ph.D. in Computational Science (Data Analytics), University of Massachusetts Boston · Graduation: August 2026"
+    description: >-
+      He develops reliable cross-session EEG/BCI decoding methods and
+      reproducible R/Python tools for session drift, domain adaptation, and
+      nonstationary time-series analysis.

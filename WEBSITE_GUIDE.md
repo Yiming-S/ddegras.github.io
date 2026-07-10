@@ -38,8 +38,9 @@ mistake is made.
 | Individual publications | `_publications/` |
 | Presentations | `_data/presentations.yml` |
 | Software | `_pages/software.md` |
-| CV | `_pages/cv.md` |
-| People | `_pages/people.md` |
+| Academic profile | `_pages/cv.md` |
+| People directory | `_data/people.yml` |
+| People page introduction | `_pages/people.md` |
 | Teaching | `_pages/teaching.md` |
 | Navigation menu | `_data/navigation.yml` |
 | Presentation PDFs | `files/presentations/` |
@@ -152,23 +153,29 @@ language label.
 Use the next sequential number in the `software-index` line. For substantial
 layout changes, ask the site maintainer rather than modifying the shared CSS.
 
-## 7. Updating People, Teaching, or CV
+## 7. Updating People, Teaching, or the academic profile
 
-- **People:** add a short profile in `_pages/people.md`:
+- **People:** add a record under `people:` in `_data/people.yml`. Copy an
+  existing record and keep the same indentation:
 
-  ```markdown
-  ### [Name](https://profile-address.example/)
-
-  *Academic status or degree · Institution · Graduation date, if applicable*
-
-  One sentence describing the person's research or work.
+  ```yaml
+  - name: "Full name"
+    category: "Graduate student"
+    url: "https://profile-address.example/"
+    status: "Academic status · Institution · Graduation date, if applicable"
+    description: >-
+      One concise sentence describing the person's research or work.
   ```
+
+  The `description` field is optional and may be omitted for a minimal record.
+  Edit the introductory paragraph separately in `_pages/people.md`.
 
 - **Teaching:** keep evergreen course descriptions in `_pages/teaching.md`.
   Update them only when a course title or catalog description changes; link to
   the official catalog instead of adding semester or year headings.
-- **CV:** edit the corresponding section in `_pages/cv.md`. Keep dates and job
-  titles consistent with the official university profile.
+- **Academic profile:** edit the corresponding section in `_pages/cv.md`. The
+  public address remains `/cv/` so existing links continue to work. Keep dates
+  and job titles consistent with the official university profile.
 
 ## 8. Updating the homepage
 
