@@ -14,7 +14,13 @@ redirect_from:
 <div class="home-shell">
   <section class="home-hero" aria-labelledby="home-title">
     <div class="home-intro">
-      <p class="home-kicker">Statistics · Mathematics · Boston</p>
+      <div class="home-person">
+        <img class="home-portrait" src="{{ base_path }}/images/biophoto.png" alt="David Degras" width="200" height="200">
+        <div class="home-person-copy">
+          <p class="home-person-name">David Degras</p>
+          <p class="home-kicker">Statistics · Mathematics · Boston</p>
+        </div>
+      </div>
       <h1 id="home-title">Structure in <em>data.</em></h1>
       <p class="home-role">Associate Professor · Department of Mathematics · University of Massachusetts Boston</p>
       <p class="home-lead">David Degras develops statistical methods for functional, high-dimensional, and neuroimaging data.</p>

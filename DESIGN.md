@@ -50,8 +50,9 @@ single component.
 
 - **Masthead:** name on the left; four primary destinations; People, Teaching,
   and Talks remain secondary.
-- **Hero:** identity, role, one sentence of research positioning, and three
-  direct actions. The visual should be a research map built from real topics.
+- **Hero:** a restrained editorial portrait, identity, role, one sentence of
+  research positioning, and three direct actions. The main visual remains a
+  research map built from real topics.
 - **Research chapter:** numbered editorial row with a question, method, and
   links to a paper or repository.
 - **Publication record:** year rail, title, venue, short description, DOI or
