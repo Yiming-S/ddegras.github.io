@@ -154,10 +154,14 @@ layout changes, ask the site maintainer rather than modifying the shared CSS.
 
 ## 7. Updating People, Teaching, or CV
 
-- **People:** add a Markdown list item in `_pages/people.md`:
+- **People:** add a short profile in `_pages/people.md`:
 
   ```markdown
-  - [Name](https://profile-address.example/)
+  ### [Name](https://profile-address.example/)
+
+  *Academic status · Institution · Expected graduation, if applicable*
+
+  One sentence describing the person's research or work.
   ```
 
 - **Teaching:** add a semester heading, course heading, and short description
